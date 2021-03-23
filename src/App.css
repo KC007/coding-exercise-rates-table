@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1,h3{
+  font-family: 'Oxygen';
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+th{
+  text-align: center;
+  font-family: 'Oxygen';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tr{
+  text-align: center;
+}
+
+.table-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+table{
+  background: rgba(231, 230, 230, 0.76);
+  border: solid white 0.2em;
+  border-radius: 0.5em;
+  padding: 2em ;
+  margin-top: 1em;
+  width: 50%;
+}
+
+.redBorder{
+  border: solid red 0.1em;
+  border-radius: 0.5em;
+}
+
+.name-Div{
+  justify-content: center;
 }
